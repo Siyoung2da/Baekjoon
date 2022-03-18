@@ -1,8 +1,7 @@
 #include <cstdio>
 #include <iostream>
-#include <vector>
 #include <cmath>
-#include <algorithm>
+
 
 using namespace std;
 #define Pie 3.14159265359
