@@ -4,7 +4,6 @@
 using namespace std;
 
 int n, k;
-int map[100001];
 bool visit[100001];
 queue<pair<int, int> > q;
 int arr_x[] = {-1, 1};
