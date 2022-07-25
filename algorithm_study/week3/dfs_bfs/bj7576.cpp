@@ -62,7 +62,7 @@ int main()
     int min_sum = 0;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)
+        for (int j = 1; j <= m; j++)
         {
             if (min_sum < check[i][j])
             {
