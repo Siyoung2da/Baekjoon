@@ -25,7 +25,6 @@ int main()
     {
         if (n == 1)
         {
-            result += 0;
             heap.pop();
         }
         else
