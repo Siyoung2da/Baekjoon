@@ -1,14 +1,13 @@
 #include <iostream>
-#include <cstdio>
 using namespace std;
 
 void hanoi(int one, int two, int three, int n) {
     if (n==1) {
-        printf("%d %d\n", one, three);
+        cout << one << " " << three << "\n";
         return;
     }
     hanoi(one, three, two, n-1);
-    printf("%d %d\n", one, three);
+    cout << one << " " << three << "\n";
     hanoi(two, one, three, n-1);
 }
 int main() {
